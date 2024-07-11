@@ -8,11 +8,11 @@
 (author can't afford a new domain.)
 
 ## Disclaimer
-To build this company profile web, author used internet such as [w3school](https://www.w3schools.com/), [codepen](https://codepen.io/), [youtube](https://www.youtube.com/), [chatGPT](https://chatgpt.com/) (for translation only) here is the [proof](https://chatgpt.com/c/78e83db4-8068-4ba6-b27a-fa20738ec74f) and his ******* friend that works as a senior front end developer that tricked author to make a few page and use javascript more than enough.
+To build this company profile web, author used internet such as [w3school](https://www.w3schools.com/), [codepen](https://codepen.io/), [youtube](https://www.youtube.com/), [chatGPT](https://chatgpt.com/) (for translation only) and his ******* friend that works as a senior front end developer that tricked author to make a few page and use javascript more than enough.
 
 In this readme.md author will only including index.html styles.css and script.js and there is a few memes in documentation.
 
-## Documentation
+## Documentation and Code Snippet
 
 #### Html
 
@@ -212,6 +212,13 @@ Add custom domain.
 
 <img src="Doc/deploy12.png">
 Custom domain will insantly works because DNS isn't change from the former project in hosting provider.
+
+#### Add New
+
+<img src="Doc/new.png">
+<img src="Doc/new2.png">
+<img src="Doc/new3.png">
+<img src="Doc/new4.png">
 
 ## Tools
 The tools is all recommended for beginners, for example:
