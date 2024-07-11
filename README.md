@@ -158,11 +158,60 @@ Used to set which item will be shown (tracked by id or class) if dark mode enabl
 
 <img src="Doc/index js toggle darkmode.png">
 
-Used to set what action to make dark mode toggled
+Used to set what action to make dark mode toggled.
 
 <img src="Doc/index js navbar.png">
 
-Used to set what action to make the navbar have background color. In this case is scrolled more than 30px
+Used to set what action to make the navbar have background color. In this case is scrolled more than 30px.
+
+#### Deployment
+
+<img src="Doc/deploy.png">
+
+Opening vercel clicked the former project.
+
+<img src="Doc/deploy2.png">
+
+Go to domain.
+
+<img src="Doc/deploy3.png">
+
+Go to edit.
+
+<img src="Doc/deploy4.png">
+
+Choose remove.
+
+<img src="Doc/deploy5.png">
+
+Remove.
+
+<img src="Doc/deploy.png">
+
+Click add new.
+
+<img src="Doc/deploy6.png">
+
+Add new project (Compro).
+
+<img src="Doc/deploy7.png">
+
+Name the project and deploy.
+
+<img src="Doc/deploy8.png">
+
+Continue to dashboard.
+
+<img src="Doc/deploy9.png">
+
+Go to domain.
+
+<img src="Doc/deploy10.png">
+
+Add custom domain.
+
+<img src="Doc/deploy12.png">
+Custom domain will insantly works because DNS isn't change from the former project in hosting provider.
 
 ## Tools
 The tools is all recommended for beginners, for example:
