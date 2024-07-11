@@ -17,13 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
       visionText: "To be a world-class educational institution that empowers students to become influential leaders and positive change-makers in their communities and beyond.",
       programs: "Programs",
       nav8: "Academic Excellence",
-      nav9: "Creative Arts",
+      acad:"Rigorous coursework designed to foster critical thinking, problem-solving, and academic achievement. Emphasizes research, innovation, and opportunities for scholarships to support continued educational success.",
+      nav9:"Creative Arts",
+      crea:"Explores a wide range of artistic expressions including performing arts (music, drama), visual arts (painting, sculpture), and design (graphic, fashion). Encourages creativity, self-expression, and mastery of artistic techniques.",
       nav10: "STEM Education",
+      stem:"Engages students in hands-on learning experiences in science, technology, engineering, and mathematics. Focuses on building skills in coding, robotics, data analysis, and scientific inquiry to prepare students for future careers in STEM fields.",
       nav11: "Practical Life Skills",
+      prac:"Equips students with essential life skills necessary for personal and professional success. Includes financial literacy, effective communication, time management, tax preparation, cooking skills, and problem-solving techniques to navigate challenges in daily life.",
       nav12: "Career Guidance",
+      care:"Provides comprehensive support for career exploration and development. Offers guidance on internships, networking opportunities, resume building, and interview preparation to help students make informed decisions about their future careers.",
       nav13: "Extracurricular Activities",
+      spot:"Offers a diverse range of activities outside of regular academics to foster holistic development. Includes participation in sports, clubs, competitions, and cultural events to promote teamwork, leadership, and personal growth.",
       nav14: "Community Service",
+      comm:"Encourages students to contribute positively to their communities through volunteerism and service projects. Emphasizes social responsibility, empathy, and awareness of community needs to cultivate compassionate global citizens.",
       nav15: "Leadership Education",
+      lead:"Develops essential leadership qualities and skills through practical experiences and mentorship opportunities. Focuses on decision-making, teamwork, conflict resolution, and ethical leadership to prepare students to lead with integrity in diverse settings.",
       facilities: "Facilities",
       art: "Art Studio",
       hall: "Assembly Hall",
@@ -51,7 +59,9 @@ document.addEventListener('DOMContentLoaded', function() {
       visionText: "Menjadi lembaga pendidikan kelas dunia yang memberdayakan siswa untuk menjadi pemimpin berpengaruh dan pembawa perubahan positif di komunitas mereka dan di luar.",
       programs: "Program",
       nav8: "Keunggulan Akademik",
+      acad:"Kurikulum yang ketat dirancang untuk mendorong pemikiran kritis, pemecahan masalah, dan pencapaian akademis. Menekankan penelitian, inovasi, dan kesempatan untuk beasiswa guna mendukung kesuksesan pendidikan yang berkelanjutan.",
       nav9: "Seni Kreatif",
+      crea:"Menjelajahi berbagai ekspresi seni termasuk seni pertunjukan (musik, drama), seni visual (menggambar, patung), dan desain (grafis, fashion). Mendorong kreativitas, ekspresi diri, dan penguasaan teknik seni.",
       nav10: "Pendidikan STEM",
       nav11: "Keterampilan Hidup Praktis",
       nav12: "Bimbingan Karier",
@@ -67,6 +77,12 @@ document.addEventListener('DOMContentLoaded', function() {
       play: "Taman Bermain (untuk SD)",
       bus: "Bus Sekolah",
       sport: "Pusat Olahraga",
+      stem:"Mengajak siswa dalam pengalaman belajar langsung di bidang sains, teknologi, rekayasa, dan matematika. Berfokus pada pengembangan keterampilan dalam pemrograman, robotika, analisis data, dan penyelidikan ilmiah untuk mempersiapkan siswa dalam karir masa depan di bidang STEM.",
+      prac:"Mengajarkan siswa keterampilan hidup yang penting untuk kesuksesan pribadi dan profesional. Termasuk literasi keuangan, komunikasi efektif, manajemen waktu, persiapan pajak, keterampilan memasak, dan teknik pemecahan masalah untuk menghadapi tantangan dalam kehidupan sehari-hari.",
+      care:"Memberikan dukungan komprehensif untuk eksplorasi dan pengembangan karier. Menawarkan panduan mengenai magang, kesempatan jaringan, pembuatan resume, dan persiapan wawancara untuk membantu siswa membuat keputusan yang terinformasi mengenai karier masa depan mereka.",
+      spot:"Menyediakan berbagai kegiatan di luar akademik regular untuk memfasilitasi pengembangan holistik. Termasuk partisipasi dalam olahraga, klub, kompetisi, dan acara budaya untuk meningkatkan kerjasama tim, kepemimpinan, dan pertumbuhan pribadi.",
+      comm:"Mendorong siswa untuk berkontribusi secara positif kepada komunitas melalui kegiatan relawan dan proyek pelayanan. Menekankan tanggung jawab sosial, empati, dan kesadaran akan kebutuhan komunitas untuk membentuk warga global yang penuh kasih.",
+      lead:"Mengembangkan kualitas dan keterampilan kepemimpinan yang esensial melalui pengalaman praktis dan kesempatan mentorship. Fokus pada pengambilan keputusan, kerja tim, penyelesaian konflik, dan kepemimpinan etis untuk mempersiapkan siswa memimpin dengan integritas dalam berbagai setting."
     },
     jp: {
       title: "ワカンダアカデミー",
@@ -101,6 +117,14 @@ document.addEventListener('DOMContentLoaded', function() {
       play: "遊び場（小学生用)",
       bus: "スクールバス",
       sport: "スポーツセンター",
+      acad:"批判的思考、問題解決能力、学業の達成を育むために設計された厳格なコースワーク。研究、革新、そして奨学金の機会を強調し、持続的な教育の成功を支援します。",
+      crea:"音楽、演劇を含む演芸、絵画、彫刻を含む視覚芸術、グラフィックデザイン、ファッションデザインを含む幅広い芸術表現を探求します。創造性、自己表現、芸術技術のマスタリーを奨励します。",
+      stem:"学生を実践的な学びの経験に参加させ、科学、技術、工学、数学の分野でのスキル構築に焦点を当てます。コーディング、ロボティクス、データ分析、科学的探求を通じて、将来のSTEM分野でのキャリアに備えます。",
+      prac:"個人と職業的成功に必要な基本的な生活スキルを学生に備えます。財政リテラシー、効果的なコミュニケーション、時間管理、税金準備、料理スキル、日常生活の課題を乗り越えるための問題解決技術を含みます。",
+      care:"キャリア探索と発展の包括的なサポートを提供します。インターンシップ、ネットワーキングの機会、履歴書の作成、面接の準備に関するガイダンスを提供し、学生が将来のキャリアについてよく考えた決断ができるよう支援します。",
+      spot:"通常の学術活動の外で、総合的な成長を促すさまざまな活動を提供します。スポーツ、クラブ活動、競技会、文化イベントへの参加を通じて、チームワーク、リーダーシップ、個人の成長を促進します。",
+      comm:"ボランティア活動や奉仕プロジェクトを通じて、地域社会への積極的な貢献を促します。社会的責任、共感、地域のニーズへの認識を重視し、思いやりのあるグローバル市民を育成します。",
+      lead:"実践的な経験とメンターシップの機会を通じて、重要なリーダーシップの資質とスキルを育成します。意思決定、チームワーク、紛争解決、倫理的リーダーシップに焦点を当て、多様な環境で誠実にリードするための準備をします。"
     }
   };
 
@@ -147,6 +171,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const playElement = document.getElementById('play');
     const busElement = document.getElementById('bus');
     const sportElement = document.getElementById('sport');
+    const acadElement = document.getElementById('acad');
+    const creaElement = document.getElementById('crea');
+    const stemElement = document.getElementById('stem');
+    const pracElement = document.getElementById('prac');
+    const careElement = document.getElementById('care');
+    const spotElement = document.getElementById('spot');
+    const commElement = document.getElementById('comm');
+    const leadElement = document.getElementById('lead');
 
     if (translations[language]) {
       titleElement.textContent = translations[language].title;
@@ -181,6 +213,14 @@ document.addEventListener('DOMContentLoaded', function() {
       playElement.textContent = translations[language].play;
       busElement.textContent = translations[language].bus;
       sportElement.textContent = translations[language].sport;
+      acadElement.textContent = translations[language].acad;
+      creaElement.textContent = translations[language].crea;
+      stemElement.textContent = translations[language].stem;
+      pracElement.textContent = translations[language].prac;
+      careElement.textContent = translations[language].care;
+      spotElement.textContent = translations[language].spot;
+      commElement.textContent = translations[language].comm;
+      leadElement.textContent = translations[language].lead;
     }
   }
 
