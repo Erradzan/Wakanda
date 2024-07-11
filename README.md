@@ -3,85 +3,215 @@
 
 
 ## Visit
-https://www.jcxmusic.site/
+[Visit Here](https://www.jcxmusic.site/)
+
+(author can't afford a new domain.)
+
+## Disclaimer
+To build this company profile web, author used internet such as [w3school](https://www.w3schools.com/), [codepen](https://codepen.io/), [youtube](https://www.youtube.com/), [chatGPT](https://chatgpt.com/) (for translation only) here is the [proof](https://chatgpt.com/c/78e83db4-8068-4ba6-b27a-fa20738ec74f) and his ******* friend that works as a senior front end developer that tricked author to make a few page and use javascript more than enough.
+
+In this readme.md author will only including index.html styles.css and script.js and there is a few memes in documentation.
 
 ## Documentation
-(This deployment is made with the assumption that the GitHub repository is updated.)
 
-<img src="Support/meta tag.png">
-this porject using a lot of meta available to reach 100 point SEO in google lighthouse.
+#### Html
 
-<img src="Support/navbar adn hamburger.png">
-showing the sequence i use for navbar and hamburger button, there is a functional language selector and dark-mode button.
+this is author when building html:
 
-<img src="Support/responsive navbar and hamburger.png">
-to make navbar is neat and burger button aplied at 768px screen width.
+<img src="Doc/htmlmeme.jpeg">
 
-<img src="Support/news and burger button js.png">
-this is java script to let burger button animation and news animation works.
+Here we go.
 
-<img src="Support/header.png">
-in header there is some text in the middle of 2 images.
+<img src="Doc/index meta.png">
 
-<img src="Support/news html (2).png">
-this is only a trial.
+Meta author used is to make web look good on all devices, set keywords for search engine, description of this website, author name, etc. Author also embed Rubik font, Wittgenstein font, and font awesome for clipart.
 
-<img src="Support/news html.png">
-now html for running news is complete.
+<img src="Doc/index fixed navbar.png">
 
-<img src="Support/animation.png">
-this is for animation the main section to pop up when user arrive at the page.
+The html author used for navbar and hamburger button, there is a functional language switcher and dark-mode button.
 
-<img src="Support/card html.png">
-it used at faculty.html to let user know who is the primcipal and teachers at wakanda academy.
+<img src="Doc/index header.png">
 
-<img src="Support/card container.png">
-to arrange card that will fit section.
+Header content used logo author create that will change in dark mode.
 
-<img src="Support/responsiv card 768.png">
-to make sure card will responsive at tablet.
+<img src="Doc/index news.png">
 
-<img src="Support/normal grid.png">
-css to control grid for laptop/computer screen.
+Html author used for running news with text.
 
-<img src="Support/responsive grid at 768.png">
-css to make grid responsive at tablet screen.
+<img src="Doc/index content.png">
 
-<img src="Support/responsive grid at 425.png">
-css to control grid for phone/mobile screen.
+Html content with about, missions, visions, and programs.
 
-<img src="Support/video tag.png">
-css to control grid for laptop/computer screen.
+<img src="Doc/index content 2.png">
 
-<img src="Support/navbar js.png">
-to make animation where navbar background color appeared when scrolled.
+Html content with facilities showing assymetrical grid.
 
-<img src="Support/dark-mode css.png">
-adding css to class or tag or id to be acknowledged by js.
+<img src="Doc/index footer.png">
 
-<img src="Support/dark-mode js.png">
-to what tag or id or class that will change, and how it will work. Also will use localstorage like translate.
+Html footer with information contact, address, and link to social media.
 
-<img src="Support/dark-mode js2.png">
-to what tag or id or class that will change, and how it will work. Also will use localstorage like translate.
+#### CSS
 
-<img src="Support/translate js.png">
-part of js that shown english translation.
+This is authors problem in css
 
-<img src="Support/translate js2.png">
-part of js that shown indonesian translation.
+<img src="Doc/meme11.webp">
 
-<img src="Support/translate js3.png">
-part of js that shown japanese translation.
+Now, back to it.
 
-<img src="Support/translate js4.png">
-part of js that shown how to make button works and to set id to switch.
+<img src="Doc/index css body.png">
 
-<img src="Support/translate js5.png">
-part of js that shown what id to pick and switch.
+Css body, set background, margin, padding, font, and fontcolor.
 
-<img src="Support/footer.png">
-shown footer html.
+<img src="Doc/index css pseudo and header.png">
+
+This css shown author used pseudo element to put effect on every first letter in p tag and styling header to put different font.
+
+<img src="Doc/index navbar css.png">
+
+This css is used to set navbar stay at the top of the page, and styling navbar.
+
+<img src="Doc/index css darkmode button.png">
+
+This css is used for styling the button.
+
+<img src="Doc/index css news.png">
+
+This css is used for styling and setting running news.
+
+<img src="Doc/index css grid.png">
+
+This is the most annoying one, author frustated just to make this little **** works just fine. (Part One). <img src="Doc/meme3.jpeg">
+
+<img src="Doc/index css burger.png">
+
+Used for styling hamburger button and hiding it, for now.
+
+<img src="Doc/index css animation.png">
+
+Used for setting animation in the page and the running news.
+
+<img src="Doc/index css responsiv 768.png">
+
+Used for making the page responsive at 768px or tablet device, in this image is navbar, and hamburger button also put menu button inside burger button.
+
+<img src="Doc/index css responsiv burger.png">
+
+Used for animating burger button, when it opened it will transform to close button.
+
+<img src="Doc/index css responsiv grid.png">
+
+This is annoying, author frustated just to make this little **** works just fine. (Part Two).
+
+<img src="Doc/index css responsiv 425.png">
+
+Used to make web page responsive at 425px or mobile/phone and logo at the header smaller so it doesn't overflow.
+
+<img src="Doc/index css responsiv grid 425.png">
+
+This is annoying, author frustated just to make this little **** works just fine. (Part Three).
+
+<img src="Doc/index css darkmode.png">
+
+Used for js to recognize what to change when dark mode enabled.
+
+#### Javascript
+
+<img src="Doc/index js eng.png">
+
+One of the most tiring one. Author used AI to check grammars.
+
+<img src="Doc/index js id.png">
+
+One of the most tiring one. Author used AI for translate. (even though it's authors mother tounge)
+
+<img src="Doc/index js jp.png">
+
+Author definitely used AI to translate this one.
+
+<img src="Doc/index js lang function.png">
+<img src="Doc/index js lang function2.png">
+<img src="Doc/index js set lang local.png">
+
+Author adopted his frontend friend idea to make this. And author quoted his friend say "translation is a must in company profile and it works just like dark mode".
+And this is author reaction while author almost have typhus (tifus a.k.a tipes) to make it work:
+<img src="Doc/meme11.jpeg">
+<img src="Doc/meme13.jpeg">
+<img src="Doc/meme12.jpeg">
+
+"TrAnSLatioN iS a MuSt In CoMpAnY pRoFiLe AnD iT WOrkS JuSt LiKe DaRk MoDe"
+
+<img src="Doc/index js news.png">
+
+Used to set running news works.
+
+<img src="Doc/index js burger.png">
+
+Used to make hamburger button can be opened and showing menu
+
+<img src="Doc/index js darkmode.png">
+
+Used to set current mode as light mode by tracking id on elements.
+
+<img src="Doc/index js daarkmode function.png">
+
+Used to set which item will be shown (tracked by id or class) if dark mode enabled.
+
+<img src="Doc/index js toggle darkmode.png">
+
+Used to set what action to make dark mode toggled.
+
+<img src="Doc/index js navbar.png">
+
+Used to set what action to make the navbar have background color. In this case is scrolled more than 30px.
+
+#### Deployment
+
+<img src="Doc/deploy.png">
+
+Opening vercel clicked the former project.
+
+<img src="Doc/deploy2.png">
+
+Go to domain.
+
+<img src="Doc/deploy3.png">
+
+Go to edit.
+
+<img src="Doc/deploy4.png">
+
+Choose remove.
+
+<img src="Doc/deploy5.png">
+
+Remove.
+
+<img src="Doc/deploy.png">
+
+Click add new.
+
+<img src="Doc/deploy6.png">
+
+Add new project (Compro).
+
+<img src="Doc/deploy7.png">
+
+Name the project and deploy.
+
+<img src="Doc/deploy8.png">
+
+Continue to dashboard.
+
+<img src="Doc/deploy9.png">
+
+Go to domain.
+
+<img src="Doc/deploy10.png">
+
+Add custom domain.
+
+<img src="Doc/deploy12.png">
+Custom domain will insantly works because DNS isn't change from the former project in hosting provider.
 
 ## Tools
 The tools is all recommended for beginners, for example:
