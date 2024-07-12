@@ -44,6 +44,44 @@
       <button id="darkModeToggle">
         <i id="toggle-icon" class="fas fa-moon"></i>
       </button>
+      <button onclick="document.getElementById('tour').style.display='block'" style="width:auto;" id="tobtn"><i class="fas fa-calendar-week"></i></button>
+      <div id="tour" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('tour').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="Support/Purple Logo.png" alt="Logo" class="modal-logo" id="logo3">
+          </div>
+          <div class="modal-container">
+            <h2 id="tou">School Tour</h2>
+            <span id="please" class="span">Please fill this form to schedule a school tour.</span>
+            <hr>
+            <label for="email"><b id="ema1">Email:</b></label>
+            <input type="email" placeholder="Email@email.com" name="mail" id="email" required>
+            <label for="name"><b id="nam1">Name:</b></label>
+            <input type="name" placeholder="Enter Name" name="name" id="name" required>
+            <input type="checkbox" id="studentCheckbox">
+            <label for="studentCheckbox" id="with">With Prospective Student?</label>
+            <br>
+            <label for="student" id="studentlabel"><b id="stud">Prospective Student Name:</b></label>
+            <input type="text" placeholder="Enter Student Name" name="student-name" id="student" required>
+            <label for="phone"><b id="phone1">Phone Number:</b></label>
+            <div class="phone-input">
+              <select id="countryCode" name="countryCode">
+                <option value="62">Indonesia (+62)</option>
+                <option value="44">United Kingdom (+44)</option>
+                <option value="81">Japan (+81)</option>
+              </select>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="212-212-0212" required>
+            </div>
+            <label for="date"><b id="date1">Date:</b></label>
+            <input type="date" name="date" id="date" required>
+            <div class="clearfix">
+              <button type="button" onclick="document.getElementById('tour').style.display='none'" class="cancelbtn" id="can">Cancel</button>
+              <button type="submit" class="tourbtn" id="send">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </nav>
     <div id="home">
       <div class="school-logo">
@@ -123,6 +161,55 @@
           </ul>
         </section>
       </div>
+      <section>
+        <h2 id="ach">Achievement</h2>
+        <div class="container">
+          <div class="box">
+          <div class="imgBx">
+              <img src="Support/awards.webp">
+          </div>
+          <div class="content">
+              <div>
+              <h3 id="aw">Best Principal Awards 2021</h3>
+              <p id="inf">Great leadership and significant contributions to student success at Wakanda Academy.</p>
+              </div>
+          </div>
+          </div>
+          <div class="box">
+          <div class="imgBx">
+              <img src="Support/awards2.webp">
+          </div>
+          <div class="content">
+              <div>
+              <h3 id="aw1">Best School In The World 2021</h3>
+              <p id="inf1">Outstanding academic excellence, innovative programs, and a nurturing environment.</p>
+              </div>
+          </div>
+          </div>
+          <div class="box">
+          <div class="imgBx">
+              <img src="Support/awards3.webp">
+          </div>
+          <div class="content">
+              <div>
+              <h3 id="aw2">Best Humanitarian Awards 2022</h3>
+              <p id="inf2">Exceptional compassion, dedication, and impactful contributions worldwide.</p>
+              </div>
+          </div>
+          </div>
+          <div class="box">
+          <div class="imgBx">
+              <img src="Support/awards4.webp">
+          </div>
+          <div class="content">
+              <div>
+              <h3 id="aw3">Best Visual School 2023</h3>
+              <p id="inf3">Outstanding achievements in visual arts education and fostering creativity and artistic excellence among students.</p>
+              </div>
+          </div>
+          </div>
+      </div>
+      </section>
       <section>
         <h2 id="facilities">Facilities</h2>
         <div class="grid-container">

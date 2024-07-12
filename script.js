@@ -41,6 +41,25 @@ document.addEventListener('DOMContentLoaded', function() {
       play: "Playground (for elementary)",
       bus: "School Bus",
       sport: "Sport Center",
+      ach:"Achievement",
+      aw:"Best Principal Awards 2021",
+      inf:"Great leadership and significant contributions to student success at Wakanda Academy.",
+      aw1:"Best School In The World 2021",
+      inf1:"Outstanding academic excellence, innovative programs, and a nurturing environment.",
+      aw2:"Best Humanitarian Awards 2022",
+      inf2:"Exceptional compassion, dedication, and impactful contributions worldwide.",
+      aw3:"Best Visual School 2023",
+      inf3:"Outstanding achievements in visual arts education and fostering creativity and artistic excellence among students.",
+      tou:"School Tour",
+      please:"Please fill this form to schedule a school tour.",
+      ema1:"Email:",
+      nam1:"Name:",
+      with:"With Prospective Student?",
+      stud:"Prospective Student Name:",
+      phone1:"Phone Number:",
+      date1:"Date:",
+      can:"Cancel",
+      send:"Send",
     },
     id: {
       title: "Akademi Wakanda",
@@ -82,7 +101,26 @@ document.addEventListener('DOMContentLoaded', function() {
       care:"Memberikan dukungan komprehensif untuk eksplorasi dan pengembangan karier. Menawarkan panduan mengenai magang, kesempatan jaringan, pembuatan resume, dan persiapan wawancara untuk membantu siswa membuat keputusan yang terinformasi mengenai karier masa depan mereka.",
       spot:"Menyediakan berbagai kegiatan di luar akademik regular untuk memfasilitasi pengembangan holistik. Termasuk partisipasi dalam olahraga, klub, kompetisi, dan acara budaya untuk meningkatkan kerjasama tim, kepemimpinan, dan pertumbuhan pribadi.",
       comm:"Mendorong siswa untuk berkontribusi secara positif kepada komunitas melalui kegiatan relawan dan proyek pelayanan. Menekankan tanggung jawab sosial, empati, dan kesadaran akan kebutuhan komunitas untuk membentuk warga global yang penuh kasih.",
-      lead:"Mengembangkan kualitas dan keterampilan kepemimpinan yang esensial melalui pengalaman praktis dan kesempatan mentorship. Fokus pada pengambilan keputusan, kerja tim, penyelesaian konflik, dan kepemimpinan etis untuk mempersiapkan siswa memimpin dengan integritas dalam berbagai setting."
+      lead:"Mengembangkan kualitas dan keterampilan kepemimpinan yang esensial melalui pengalaman praktis dan kesempatan mentorship. Fokus pada pengambilan keputusan, kerja tim, penyelesaian konflik, dan kepemimpinan etis untuk mempersiapkan siswa memimpin dengan integritas dalam berbagai setting.",
+      ach:"Pencapaian",
+      aw:"Penghargaan Kepala Sekolah Terbaik 2021",
+      inf:"Kepemimpinan hebat dan kontribusi signifikan terhadap kesuksesan siswa di Wakanda Academy.",
+      aw1:"Sekolah Terbaik di Dunia 2021",
+      inf1:"Keunggulan akademik yang luar biasa, program inovatif, dan lingkungan yang mendukung.",
+      aw2:"Penghargaan Kemanusiaan Terbaik 2022",
+      inf2:"Belas kasih yang luar biasa, dedikasi, dan kontribusi yang berdampak di seluruh dunia.",
+      aw3:"Sekolah Visual Terbaik 2023",
+      inf3:"Pencapaian luar biasa dalam pendidikan seni visual dan mendorong kreativitas serta keunggulan artistik di antara siswa.",
+      tou:"Kunjungan Sekolah",
+      please:"Silakan isi formulir ini untuk menjadwalkan kunjungan sekolah.",
+      ema1:"Email:",
+      nam1:"Nama:",
+      with:"Dengan Calon Siswa?",
+      stud:"Nama Calon Siswa:",
+      phone1:"Nomor Telepon:",
+      date1:"Tanggal:",
+      can:"Batal",
+      send:"Kirim",
     },
     jp: {
       title: "ワカンダアカデミー",
@@ -124,7 +162,26 @@ document.addEventListener('DOMContentLoaded', function() {
       care:"キャリア探索と発展の包括的なサポートを提供します。インターンシップ、ネットワーキングの機会、履歴書の作成、面接の準備に関するガイダンスを提供し、学生が将来のキャリアについてよく考えた決断ができるよう支援します。",
       spot:"通常の学術活動の外で、総合的な成長を促すさまざまな活動を提供します。スポーツ、クラブ活動、競技会、文化イベントへの参加を通じて、チームワーク、リーダーシップ、個人の成長を促進します。",
       comm:"ボランティア活動や奉仕プロジェクトを通じて、地域社会への積極的な貢献を促します。社会的責任、共感、地域のニーズへの認識を重視し、思いやりのあるグローバル市民を育成します。",
-      lead:"実践的な経験とメンターシップの機会を通じて、重要なリーダーシップの資質とスキルを育成します。意思決定、チームワーク、紛争解決、倫理的リーダーシップに焦点を当て、多様な環境で誠実にリードするための準備をします。"
+      lead:"実践的な経験とメンターシップの機会を通じて、重要なリーダーシップの資質とスキルを育成します。意思決定、チームワーク、紛争解決、倫理的リーダーシップに焦点を当て、多様な環境で誠実にリードするための準備をします。",
+      ach:"業績",
+      aw:"2021年最優秀校長賞",
+      inf:"ワカンダ・アカデミーでの素晴らしいリーダーシップと生徒の成功への重要な貢献。",
+      aw1:"2021年世界最高の学校",
+      inf1:"卓越した学業成績、革新的なプログラム、および育成環境。",
+      aw2:"2022年最優秀人道賞",
+      inf2:"卓越した慈悲心、献身、そして世界中での影響力のある貢献。",
+      aw3:"2023年最優秀ビジュアルスクール",
+      inf3:"視覚芸術教育における卓越した成果と、学生の創造性および芸術的卓越性の促進。",
+      tou:"学校見学",
+      please:"学校見学のスケジュールを予約するためにこのフォームに記入してください。",
+      ema1:"Email:",
+      nam1:"名前:",
+      with:"見込み学生と一緒に？",
+      stud:"見込み学生の名前:",
+      phone1:"電話番号:",
+      date1:"日付:",
+      can:"キャンセル ",
+      send:"送信する",
     }
   };
 
@@ -179,6 +236,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const spotElement = document.getElementById('spot');
     const commElement = document.getElementById('comm');
     const leadElement = document.getElementById('lead');
+    const achElement = document.getElementById('ach');
+    const awElement = document.getElementById('aw');
+    const infElement = document.getElementById('inf');
+    const aw1Element = document.getElementById('aw1');
+    const inf1Element = document.getElementById('inf1');
+    const aw2Element = document.getElementById('aw2');
+    const inf2Element = document.getElementById('inf2');
+    const aw3Element = document.getElementById('aw3');
+    const inf3Element = document.getElementById('inf3');
+    const touElement = document.getElementById('tou');
+    const pleaseElement = document.getElementById('please');
+    const ema1Element = document.getElementById('ema1');
+    const nam1Element = document.getElementById('nam1');
+    const withElement = document.getElementById('with');
+    const studElement = document.getElementById('stud');
+    const phone1Element = document.getElementById('phone1');
+    const date1Element = document.getElementById('date1');
+    const canElement = document.getElementById('can');
+    const sendElement = document.getElementById('send');
 
     if (translations[language]) {
       titleElement.textContent = translations[language].title;
@@ -221,6 +297,25 @@ document.addEventListener('DOMContentLoaded', function() {
       spotElement.textContent = translations[language].spot;
       commElement.textContent = translations[language].comm;
       leadElement.textContent = translations[language].lead;
+      achElement.textContent = translations[language].ach;
+      awElement.textContent = translations[language].aw;
+      infElement.textContent = translations[language].inf;
+      aw1Element.textContent = translations[language].aw1;
+      inf1Element.textContent = translations[language].inf1;
+      aw2Element.textContent = translations[language].aw2;
+      inf2Element.textContent = translations[language].inf2;
+      aw3Element.textContent = translations[language].aw3;
+      inf3Element.textContent = translations[language].inf3;
+      touElement.textContent = translations[language].tou;
+      pleaseElement.textContent = translations[language].please;
+      ema1Element.textContent = translations[language].ema1;
+      nam1Element.textContent = translations[language].nam1;
+      withElement.textContent = translations[language].with;
+      studElement.textContent = translations[language].stud;
+      phone1Element.textContent = translations[language].phone1;
+      date1Element.textContent = translations[language].date1;
+      canElement.textContent = translations[language].can;
+      sendElement.textContent = translations[language].send;
     }
   }
 
@@ -239,6 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggleIcon = document.getElementById('toggle-icon');
   const logo = document.getElementById('logo');
   const logo2 = document.getElementById('logo2');
+  const logo3 = document.getElementById('logo3');
   const favicon = document.getElementById('favicon');
   const favicon2 = document.getElementById('favicon2');
   const favicon3 = document.getElementById('favicon3');
@@ -262,6 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
           toggleIcon.classList.add('fa-sun');
           logo.src = 'Support/Black Logo.png';
           logo2.src = 'Support/Black Logo.png';
+          logo3.src = 'Support/Black Logo.png';
           favicon.href = 'Support/Black Icon.png';
           favicon2.src = 'Support/Black Icon.png';
           favicon3.src = 'Support/Black Icon.png';
@@ -277,6 +374,7 @@ document.addEventListener('DOMContentLoaded', () => {
           toggleIcon.classList.add('fa-moon');
           logo.src = 'Support/Purple Logo.png';
           logo2.src = 'Support/Purple Logo.png';
+          logo3.src = 'Support/Purple Logo.png';
           favicon.href = 'Support/Purple Icon.png';
           favicon2.src = 'Support/Purple Icon.png';
           favicon3.src = 'Support/Purple Icon.png';

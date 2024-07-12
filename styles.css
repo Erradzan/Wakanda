@@ -110,17 +110,19 @@ nav.scrolled {
   background-color: transparent;
   border: none;
   cursor: pointer;
-}
-
-#darkModeToggle:hover {
-  background-color: #6a0dad;
+  color: #000000;
 }
 
 #darkModeToggle i {
   font-size: 24px;
   color: #000000;
 }
-  
+
+#darkModeToggle i:hover {
+  color: #6a0dad;
+}
+
+
 #menu li select {
   padding: 5px;
   border-radius: 5px;
@@ -128,6 +130,106 @@ nav.scrolled {
   font-weight: bold;
   background-color: #ffffff;
   color: #6a0dad;
+}
+
+button {
+  color: #000000;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 24px;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #6a0dad;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 1px 15px;
+  background-color: transparent;
+  color: #000000;
+}
+
+.cancelbtn:hover {
+  background-color: transparent;
+  color: #eb0520;
+  cursor: pointer;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.modal-logo {
+  width: 60%;
+}
+
+.modal-container {
+  padding: 16px;
+}
+
+.modal-container input {
+  border-radius: 10px;
+}
+
+.modal-container h2 {
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #c0c0c0;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 37%;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  animation: animatezoom 0.6s
+}
+
+input[type=text], input[type=email], input[type=date], input[type=name] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
 }
 
 .hamburger {
@@ -279,6 +381,112 @@ p::first-letter {
   grid-area: sport;
 }
 
+.container {
+  position: relative;
+  width: 1160px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  margin: auto;
+}
+.container .box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #c0c0c0;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-top: 45px;
+}
+.container:hover .box {
+  transform: rotateY(25deg);
+}
+.container .box:hover ~ .box {
+  transform: rotateY(-25deg);
+}
+.container .box:hover {
+  transform: rotateY(0deg) scale(1.25);
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+.container .box .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container .box .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container .box .imgBx:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg,#6a0dad,#000000);
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+.container .box:hover .imgBx:before {
+  opacity: 1;
+}
+.container .box .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.container .box .content h3 {
+  color: #c0c0c0;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 18px;
+  transform: translateY(200px);
+  transition-delay: 0.3s;
+}
+.container .box:hover .content h3 {
+  transform: translateY(0px);
+}
+.container .box .content p {
+  color: #c0c0c0;
+  transition: 0.5s;
+  font-size: 14px;
+  transform: translateY(200px);
+  transition-delay: 0.4s;
+}
+.container .box:hover .content p {
+  transform: translateY(0px);
+}
+
 footer {
   background-color: #6a0dad;
   color: #c0c0c0;
@@ -367,9 +575,31 @@ footer.dark-mode {
   body {
     font-size: 16px;
   }
+
   section {
-    max-width: 800px;
+    max-width: 900px;
     font-size: 16px;
+  }
+
+  .container {
+    width: 800px;
+  }
+
+  .container .box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .container .box .content h3 {
+    font-size: 16px;
+  }
+
+  .container .box .content #aw2 {
+    font-size: 16px;
+  }
+
+  .container .box .content p {
+    font-size: 13px;
   }
 }
 
@@ -377,9 +607,31 @@ footer.dark-mode {
   body {
     font-size: 15px;
   }
+
   section {
     max-width: 600px;
     font-size: 14px;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .container .box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .container .box .content h3 {
+    font-size: 16px;
+  }
+
+  .container .box .content #aw2 {
+    font-size: 16px;
+  }
+
+  .container .box .content p {
+    font-size: 13px;
   }
 
   .ticker-item img {
@@ -445,9 +697,35 @@ footer.dark-mode {
   body {
     font-size: 14px;
   }
+
   section {
     max-width: 300px;
     font-size: 12px;
+  }
+
+  .container {
+    width: 200px;
+  }
+
+  .container .box {
+    width: 130px;
+    height: 130px;
+  }
+
+  .modal-content {
+    width: 80%;
+  }
+
+  .container .box .content h3 {
+    font-size: 10px;
+  }
+
+  .container .box .content #aw2 {
+    font-size: 8px;
+  }
+
+  .container .box .content p {
+    font-size: 8px;
   }
   
   #logo {
@@ -516,11 +794,43 @@ body.dark-mode #menu li a {
   color: #6a0dad;
 }
 
+body.dark-mode #menu li a:hover {
+  color: #c0c0c0;
+}
+
 body.dark-mode #darkModeToggle i {
   font-size: 24px;
   color: #6a0dad;
 }
 
+body.dark-mode #darkModeToggle i:hover {
+  color: #c0c0c0;
+}
+
 body.dark-mode .grid-item {
   background-color: #000000;
+}
+
+body.dark-mode .container .box {
+  background-color: #000000;
+}
+
+body.dark-mode button i {
+  color: #6a0dad;
+}
+
+body.dark-mode button i:hover {
+  color: #c0c0c0;
+}
+
+body.dark-mode button {
+  color: #c0c0c0;
+}
+
+body.dark-mode button:hover {
+  color: #000000;
+}
+
+body.dark-mode .modal-content {
+  background-color: #6a0dad;
 }

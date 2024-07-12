@@ -132,7 +132,7 @@ Author definitely used AI to translate this one.
 <img src="Doc/index js lang function2.png">
 <img src="Doc/index js set lang local.png">
 
-Author adopted his frontend friend idea to make this. And author quoted his friend say "translation is a must in company profile and it works just like dark mode".
+Author adopted his front end friend idea to make this. And author quoted his friend say "translation is a must in company profile and it works just like dark mode".
 And this is author reaction while author almost have typhus (tifus a.k.a tipes) to make it work:
 <img src="Doc/meme11.jpeg">
 <img src="Doc/meme13.jpeg">
@@ -211,14 +211,68 @@ Go to domain.
 Add custom domain.
 
 <img src="Doc/deploy12.png">
+
 Custom domain will insantly works because DNS isn't change from the former project in hosting provider.
 
 #### Add New
+After seeing author's classmates company profile website, author feel insecure about authors simple company profile website. So, author decide to add more simple css in hope to inflate author's pride a little bit.
 
-<img src="Doc/new.png">
-<img src="Doc/new2.png">
+<img src="Doc/add achiev html.png">
+
+Adding achievement section with 4 images.
+
+<img src="Doc/add achiev css.png">
+
+Setting .container, .box, adding pseudo element hover on .container so box will move when .container is hovered. The symbol ~ (tilde) is a symbol used to select specified elements "siblings".
+
+<img src="Doc/add achiev css1.png">
+
+Setting container, box, and imgBx. Also adding pseudo element on imgBx and on imgBX when box is hovered.
+
+<img src="Doc/add achiev css2.png">
+
+Setting the image inside imgBx, content class, the heading 3 (h3) tag to make it stay and not to rotate when hovered.
+
+<img src="Doc/add achiev css3.png">
+
+Just like h3 tag, but now it's paragraph tag (p).
+
+<img src="Doc/add flip html.png">
+
+Add class to both logos on header.
+
+<img src="Doc/add flip css.png">
+
+Adding animation to the school-logo and side class.
+
+<img src="Doc/add flip anim.png">
+
+Addding animation logic.
+
 <img src="Doc/new3.png">
+
+Adding new responsive for larger device.
+
 <img src="Doc/new4.png">
+
+Adding new reponsive to samller device. (before this, only up to 425px).
+
+<img src="Doc/add modal html.png">
+
+Adding modal to "schedule a school tour" the button is a calendar-week clipart from font awesome. 
+
+<img src="Doc/add modal css.png">
+
+Setting the button to open modal, send form, and cancel button.
+
+<img src="Doc/add modal css2.png">
+
+Adding logo image at the top of modal, modal position, and make input box in modal is a little round.
+
+<img src="Doc/add modal css3.png">
+
+Setting close modal button, modal-content div, animation when modal opened, and input box size.
+
 
 ## Tools
 The tools is all recommended for beginners, for example:
