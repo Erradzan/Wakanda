@@ -1,6 +1,7 @@
 body {
     font-family: "Rubik", sans-serif;
     font-style: normal;
+    font-size: 16px;
     color: #000000;
     background-image: url(Support/school.webp);
     background-size: cover;
@@ -58,9 +59,18 @@ header {
     height: auto;
 }
 
+.school-logo {
+    animation: spin 5s infinite linear;
+}
+  
+.side {
+    transform: rotateY('360deg');
+}
+
 nav {
     display: flex;
-    justify-content: space-between;
+    width: 100vw;
+    justify-content: center;
     align-items: center;
     background-color: transparent;
     position: fixed;
@@ -165,26 +175,39 @@ nav.scrolled {
 }
 
 .ticker-item img {
-    width: 50%;
+    width: 70%;
 }
 
 section {
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 1000px;
     background-color: #c0c0c0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+h1 {
+    color: #6a0dad;
+}
+  
+h2 {
+    color: #6a0dad;
+    margin: 0px;
+}
+  
+h3 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-}
-
-h1, h2 {
-    color: #6a0dad;
 }
 
 .section img {
@@ -312,17 +335,69 @@ footer {
     }
 }
 
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
 @keyframes ticker {
     0% { transform: translateX(0); }
     100% { transform: translateX(-100%); }
 }
 
+@media (max-width: 2560px) {
+    body {
+      font-size: 25px;
+    }
+    section {
+      max-width: 2000px;
+      font-size: 20px;
+    }
+}
+
+@media (max-width: 1440px) {
+    body {
+      font-size: 18px;
+    }
+    section {
+      max-width: 1100px;
+      font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+    section {
+      max-width: 800px;
+      font-size: 16px;
+    }
+}
+
 @media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    section {
+        max-width: 600px;
+        font-size: 14px;
+    }
+
+    .ticker-item img {
+        width: 50%;
+    }
+
     nav{
       width: 100vw;
       position: fixed;
     }
-  
+
     .hamburger {
         display: flex;
     }
@@ -359,6 +434,15 @@ footer {
 }
 
 @media (max-width: 425px) {
+    body {
+        font-size: 14px;
+    }
+    
+    section {
+        max-width: 300px;
+        font-size: 12px;
+    }
+
     #logo {
       width: 80px;
       height: auto;
@@ -384,6 +468,16 @@ footer {
     .record video {
         max-width: 80%;
         max-height: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+      font-size: 14px;
+    }
+    section {
+      max-width: 250px;
+      font-size: 14px;
     }
 }
 
